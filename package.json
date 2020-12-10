@@ -1,0 +1,319 @@
+{
+	"name": "GitHub Dark",
+	"id": "github-dark",
+	"author": "Gabriel Gutiérrez",
+	"version": "1.0.0",
+	"description": "Unofficial Port of the GitHub Dark Theme for Graviton2",
+	"textTheme": "ghdark",
+	"fileTheme": "ghdark.css",
+	"type": "theme",
+	"colorsScheme": {
+		"terminal": {
+			"Background": "#1E1E3F",
+			"Foreground": "#FFFFFF",
+			"Selection": "#FAD000",
+			"Cursor": "#FAD000"
+		},
+		"accent": {
+			"Color": "#21863b"
+		},
+		"text": {
+			"Color": "#ffffff",
+			"Focused": {
+				"Background": "#FFFFFF"
+			}
+		},
+		"body": {
+			"Background": "#161b22"
+		},
+		"titlebar": {
+			"Background": "#161b22"
+		},
+		"menu": {
+			"Background": "#161b22",
+			"Button": {
+				"Background": "#202020",
+				"Hovering": {
+					"Background": "#303030",
+					"Text": "#FFFFFF"
+				},
+				"Text": "#FFFFFF"
+			},
+			"Option": {
+				"Text": "#FFFFFF",
+				"Hovering": {
+					"Background": "#303030",
+					"Text": "#FFFFFF"
+				}
+			},
+			"Divider": "#282828"
+		},
+		"control": {
+			"Buttons": {
+				"Fill": "#FFFFFF",
+				"Hovering": {
+					"Background": "#353553"
+				}
+			},
+			"Close": {
+				"Button": {
+					"Hovering": {
+						"Background": "#E81123",
+						"Fill": "white"
+					},
+					"Active": {
+						"Background": "#F1707B",
+						"Fill": "#161b22"
+					}
+				}
+			}
+		},
+		"window": {
+			"Background": "#161b22",
+			"Icons": {
+				"Fill": "rgb(40,40,40)"
+			},
+			"Border": "#404040"
+		},
+		"contextmenu": {
+			"Background": "#161b22",
+			"Button": {
+				"Background": "#202020",
+				"Text": "#FFFFFF",
+				"Hovering": {
+					"Background": "#303030",
+					"Text": "#FFFFFF"
+				}
+			},
+			"Divider": "#282828"
+		},
+		"mainpanel": {
+			"Background": "#161b22"
+		},
+		"tabsbar": {
+			"Background": "#282828"
+		},
+		"tab": {
+			"Text": "#FFFFFF",
+			"Background": "transparent",
+			"Active": {
+				"Text": "white",
+				"Background": "#161b22"
+			},
+			"Hovering": {
+				"While": {
+					"Dragging": {
+						"Background": "#222244"
+					}
+				}
+			},
+			"Icon": {
+				"Fill": "#FFFFFF",
+				"Hovering": {
+					"Fill": "#FFFFFF"
+				}
+			}
+		},
+		"scrollbar": {
+			"Background": "#101010",
+			"Hovering": {
+				"Background": "#282828"
+			}
+		},
+		"sidemenu": {
+			"Background": "#232323",
+			"Button": {
+				"Background": "transparent",
+				"Hovering": {
+					"Background": "#161b22"
+				},
+				"Active": {
+					"Background": "#21863b",
+					"Text": "white"
+				},
+				"Text": "white"
+			},
+			"Searcher": {
+				"Background": "white",
+				"Text": "#161b22",
+				"Border": "#CFCFCF"
+			}
+		},
+		"explorer": {
+			"Item": {
+				"Text": "#fff",
+				"Hovering": {
+					"Background": "#53a5fc"
+				},
+				"Selected": {
+					"Background": "#0071fc"
+				},
+				"Arrow": {
+					"Background": "#60a6fc"
+				},
+				"Git": {
+					"Modified": {
+						"Text": "#21863b",
+						"Indicator": "#21863b"
+					},
+					"Not": {
+						"Added": {
+							"Text": "#00FF009A",
+							"Indicator": "#00FF009A"
+						}
+					},
+					"Indicator": {
+						"Text": "#1E1E3F"
+					}
+				}
+			}
+		},
+		"card": {
+			"Background": "#232323"
+		},
+		"button": {
+			"Background": "#21863b",
+			"Important": {
+				"Background": "#21863b",
+				"Text": "white"
+			}
+		},
+		"radio": {
+			"Hovering": {
+				"Background": "#202020"
+			},
+			"Circle": {
+				"Background": "#404040",
+				"Border": "#CFCFCF",
+				"Hovering": {
+					"Border": "#5D9DFC"
+				}
+			}
+		},
+		"file": {
+			"Not": {
+				"Saved": {
+					"Indicator": "#FFFFFF",
+					"Hovering": {
+						"Indicator": "#FFFFFF"
+					}
+				}
+			}
+		},
+		"editor": {
+			"Dialog": {
+				"Background": "#161b22",
+				"Text": "#FFFFFF"
+			},
+			"Tooltip": {
+				"Background": "#21863b",
+				"Text": "#1E1E3F"
+			}
+		},
+		"statusbar": {
+			"Background": "#161b22",
+			"Border": "#303030",
+			"Item": {
+				"Background": "transparent",
+				"Hovering": {
+					"Background": "#404040",
+					"Text": "#fff"
+				},
+				"Important": {
+					"Background": "#1E1E3F",
+					"Text": "#fff"
+				},
+				"Text": "#fff",
+				"Icon": {
+					"Background": "#fff"
+				}
+			},
+			"Git": {
+				"Item": {
+					"Text": "#A599E9",
+					"Modified": {
+						"Text": "#A599E9"
+					}
+				}
+			}
+		},
+		"input": {
+			"Background": "#161b22",
+			"Text": "#21863b",
+			"Border": "#404040"
+		},
+		"splash": {
+			"Screen": {
+				"Text": "#21863b",
+				"Background": "#2D2B55"
+			}
+		},
+		"command": {
+			"Prompt": {
+				"Input": {
+					"Background": "#161b22",
+					"Text": "#1E1E3F"
+				},
+				"Background": "#2D2B55",
+				"Option": {
+					"Background": "#21863b",
+					"Active": {
+						"Background": "#161b22",
+						"Text": "white"
+					},
+					"Text": "#161b22"
+				}
+			}
+		},
+		"notification": {
+			"Background": "#2D2B55",
+			"Title": {
+				"Text": "#161b22"
+			},
+			"Content": {
+				"Text": "#161b22"
+			},
+			"Button": {
+				"Background": "#21863b"
+			}
+		},
+		"panel": {
+			"Border": "#404040"
+		},
+		"switch": {
+			"Background": "white",
+			"Indicator": {
+				"Activated": {
+					"Background": "orange"
+				},
+				"Desactivated": {
+					"Background": "rgba(150,150,150,0.8)"
+				}
+			}
+		},
+		"loader": {
+			"Background": "#FFFFFF"
+		},
+		"sidebar": {
+			"Icons": {
+				"Fill": "#A599E9",
+				"Active": {
+					"Fill": "#FFFFFF"
+				},
+				"Hovering": {
+					"Fill": "#FFFFFF"
+				}
+			},
+			"Icon": {
+				"Background": "transparent",
+				"Hovering": {
+					"Background": "transparent"
+				},
+				"Active": {
+					"Background": "#161b22"
+				}
+			},
+			"Background": "#161b22"
+		}
+	}
+}
