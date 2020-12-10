@@ -1,0 +1,59 @@
+.cm-s-ghdark .CodeMirror-gutters {
+	background: #161b22;
+}
+.cm-s-ghdark .CodeMirror-linenumber {
+	color: rgb(76, 81, 87);
+}
+
+.cm-s-ghdark .CodeMirror-cursor {
+	border-left: 1px solid rgb(139, 148, 158);
+} 
+
+.cm-s-ghdark .CodeMirror-selected {
+	background: RGBA(87, 124, 165, 0.65);
+}
+
+
+.cm-s-ghdark span.cm-keyword, .cm-s-ghdark span.cm-type, .cm-s-ghdark span.cm-operator, .cm-s-ghdark span.cm-meta {
+	color: rgb(253, 120, 114);
+}
+
+.cm-s-ghdark span.cm-def, .cm-s-ghdark span.cm-atom, .cm-s-ghdark span.cm-builtin, .cm-s-ghdark span.cm-attribute {
+	color: rgb(212, 166, 252);
+}
+
+.cm-s-ghdark span.cm-property {
+	color: rgb(212, 166, 252);
+}
+
+.cm-s-ghdark span.cm-variable, .cm-s-ghdark span.cm-qualifier  {
+	color: rgb(190, 209, 217);
+}
+
+.cm-s-ghdark span.cm-variable-2 {
+	color: rgb(190, 229, 217);
+}
+
+.cm-s-ghdark span.cm-string, .cm-s-ghdark span.cm-string-2, .cm-s-ghdark span.cm-tag {
+	color: rgb(164, 211, 250);
+}
+
+.cm-s-ghdark span {
+	color: #9EFFFF;
+}
+
+.cm-s-ghdark span.cm-string.cm-property {
+	color: rgb(164, 211, 250);
+}
+
+.cm-s-ghdark span.cm-error, .cm-s-ghdark span.cm-invalidchar {
+	color: #EC3A37F5;
+}
+
+.cm-s-ghdark span.cm-number {
+	color: rgb(126, 192, 253);
+}
+
+.cm-s-ghdark span.cm-comment {
+	color: rgb(139, 148, 158);
+}
