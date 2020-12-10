@@ -1,6 +1,6 @@
 ## GitHub Dark (Unofficial) Port
 
-![GitHub Dark on Graviton2](https://i.ibb.co/3kJQFZ9/Screen-Shot-2020-12-10-at-12-50-13-AM.png)
+![GitHub Dark on Graviton2](https://i.ibb.co/GTcmTzw/Screen-Shot-2020-12-10-at-12-52-05-AM.png)
 
 This theme is an unffocial port of the [GitHub Dark](https://github.com/StylishThemes/GitHub-Dark-Syntax-Themes) theme (that is the only link I can find right now - it seems that I am the first person to recreate this theme!).
 Due to the differences between how GitHub and Graviton check and tokenize code for highlighting there will be small differences, but I have tried to keep this theme as accurate as possible
