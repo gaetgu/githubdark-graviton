@@ -13,25 +13,32 @@
 	background: RGBA(87, 124, 165, 0.65);
 }
 
-
-.cm-s-ghdark span.cm-keyword, .cm-s-ghdark span.cm-type, .cm-s-ghdark span.cm-operator, .cm-s-ghdark span.cm-meta {
-	color: rgb(253, 120, 114);
+/* Special operators (const, function declaration, etc.) */
+.cm-s-ghdark span.cm-keyword, .cm-s-ghdark span.cm-type, .cm-s-ghdark span.cm-meta {
+	color: rgb(228, 110, 104);
 }
 
-.cm-s-ghdark span.cm-def, .cm-s-ghdark span.cm-atom, .cm-s-ghdark span.cm-builtin, .cm-s-ghdark span.cm-attribute {
+.cm-s-ghdark span.cm-operator {
 	color: rgb(212, 166, 252);
+}
+
+/* Variables, function names, etc. */
+.cm-s-ghdark span.cm-def, .cm-s-ghdark span.cm-atom, .cm-s-ghdark span.cm-builtin, .cm-s-ghdark span.cm-attribute {
+	color: rgb(198, 206, 214);
 }
 
 .cm-s-ghdark span.cm-property {
 	color: rgb(212, 166, 252);
 }
 
-.cm-s-ghdark span.cm-variable, .cm-s-ghdark span.cm-qualifier  {
-	color: rgb(190, 209, 217);
+/* Variables and qualifiers */
+.cm-s-ghdark span.cm-variable, .cm-s-ghdark span.cm-qualifier {
+	color: rgb(237, 155, 83);
 }
 
+/* Also variables? */
 .cm-s-ghdark span.cm-variable-2 {
-	color: rgb(190, 229, 217);
+	color: rgb(255, 255, 255);
 }
 
 .cm-s-ghdark span.cm-string, .cm-s-ghdark span.cm-string-2, .cm-s-ghdark span.cm-tag {
