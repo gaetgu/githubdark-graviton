@@ -11,7 +11,7 @@ As of the time of writing (early December, 2020), there are some issues with whe
 
 Open a new terminal and move to the `plugins` directory you just created. Now run 
 ```shell
-git clone
+git clone https://github.com/gaetgu/githubdark-graviton.git
 ```
 If everything worked correctly, the **GitHub Dark** theme should be available in settings once graviton is restarted.
 
