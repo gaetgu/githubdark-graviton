@@ -9,7 +9,7 @@ Due to the differences between how GitHub and Graviton check and tokenize code f
 This theme has been tested in Graviton v2.1
 
 ## 💻 Installing
-As of the time of writing (early December, 2020), there are some issues with where the default release of graviton2 looks for its plugin files on macOS. To fix this, open up the advanced settings JSON file, and find the `appConfigPath` key and change it's value to `/Users/<yourusername>/graviton2`. Now create a folder in your home directory called `graviton2`, as well as a folder inside `graviton2` called `plugins`. 
+As of the time of writing (early December, 2020), there are some issues with where the default release of graviton2 looks for its plugin files on macOS. To fix this, open up the advanced settings JSON file, find the `appConfigPath` key, and change it's value to `/Users/<yourusername>/graviton2`. Now create a folder in your home directory called `graviton2`, as well as a folder inside `graviton2` called `plugins`. 
 
 Open a new terminal and move to the `plugins` directory you just created. Now run 
 ```shell
