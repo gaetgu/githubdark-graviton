@@ -85,13 +85,13 @@
 					"Text": "#FFFFFF"
 				}
 			},
-			"Divider": "#282828"
+			"Divider": "#090d13"
 		},
 		"mainpanel": {
 			"Background": "#161b22"
 		},
 		"tabsbar": {
-			"Background": "#282828"
+			"Background": "#090d13"
 		},
 		"tab": {
 			"Text": "#FFFFFF",
